@@ -1,0 +1,16 @@
+stm32f3_discovery_lsm303dlhc.c:592:13:LSM303DLHC_LowLevel_Init	48	static
+stm32f3_discovery_lsm303dlhc.c:433:10:LSM303DLHC_Write	32	static
+stm32f3_discovery_lsm303dlhc.c:95:6:LSM303DLHC_AccInit	16	static
+stm32f3_discovery_lsm303dlhc.c:385:6:LSM303DLHC_MagInit	24	static
+stm32f3_discovery_lsm303dlhc.c:506:10:LSM303DLHC_Read	32	static
+stm32f3_discovery_lsm303dlhc.c:121:6:LSM303DLHC_AccRebootCmd	16	static
+stm32f3_discovery_lsm303dlhc.c:141:6:LSM303DLHC_AccFilterConfig	24	static
+stm32f3_discovery_lsm303dlhc.c:168:6:LSM303DLHC_AccFilterCmd	16	static
+stm32f3_discovery_lsm303dlhc.c:191:6:LSM303DLHC_AccFilterClickCmd	16	static
+stm32f3_discovery_lsm303dlhc.c:220:6:LSM303DLHC_AccIT1Config	24	static
+stm32f3_discovery_lsm303dlhc.c:257:6:LSM303DLHC_AccIT2Config	24	static
+stm32f3_discovery_lsm303dlhc.c:287:6:LSM303DLHC_AccINT1InterruptConfig	24	static
+stm32f3_discovery_lsm303dlhc.c:315:6:LSM303DLHC_AccINT2InterruptConfig	24	static
+stm32f3_discovery_lsm303dlhc.c:343:6:LSM303DLHC_AccClickITConfig	24	static
+stm32f3_discovery_lsm303dlhc.c:369:9:LSM303DLHC_AccGetDataStatus	16	static
+stm32f3_discovery_lsm303dlhc.c:416:9:LSM303DLHC_MagGetDataStatus	16	static

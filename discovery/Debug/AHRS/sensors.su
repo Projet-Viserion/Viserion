@@ -1,0 +1,17 @@
+sensors.c:64:6:myFusion	24	static
+sensors.c:111:6:readAllSensors	16	static
+sensors.c:117:6:readRawGyro	8	static
+sensors.c:191:6:Demo_GyroConfig	32	static
+sensors.c:239:6:Demo_CompassConfig	32	static
+sensors.c:345:6:processGyroData	16	static
+sensors.c:166:6:UpdateGyroBias	16	static
+sensors.c:373:6:GyroExtiConfig	8	static
+sensors.c:377:6:processAccelData	16	static
+sensors.c:403:6:processMagnetoData	4	static
+sensors.c:121:6:AHRS_GetValues	24	static
+sensors.c:80:6:updateQuaternions	48	static
+sensors.c:409:6:getEulerAngles	40	static
+sensors.c:432:6:getEulerAsArray	8	static
+sensors.c:454:10:LSM303DLHC_TIMEOUT_UserCallback	0	static
+sensors.c:464:10:L3GD20_TIMEOUT_UserCallback	0	static
+sensors.c:469:6:Sensors_GPIO_EXTI_Callback	8	static

@@ -1,0 +1,12 @@
+stm32f3_discovery_l3gd20.c:383:13:L3GD20_LowLevel_Init	56	static
+stm32f3_discovery_l3gd20.c:286:6:L3GD20_Write	24	static
+stm32f3_discovery_l3gd20.c:101:6:L3GD20_Init	16	static
+stm32f3_discovery_l3gd20.c:335:6:L3GD20_Read	24	static
+stm32f3_discovery_l3gd20.c:127:6:L3GD20_RebootCmd	16	static
+stm32f3_discovery_l3gd20.c:147:6:L3GD20_INT1InterruptConfig	16	static
+stm32f3_discovery_l3gd20.c:182:6:L3GD20_INT1InterruptCmd	16	static
+stm32f3_discovery_l3gd20.c:204:6:L3GD20_INT2InterruptCmd	16	static
+stm32f3_discovery_l3gd20.c:224:6:L3GD20_FilterConfig	16	static
+stm32f3_discovery_l3gd20.c:249:6:L3GD20_FilterCmd	16	static
+stm32f3_discovery_l3gd20.c:269:9:L3GD20_GetDataStatus	16	static
+stm32f3_discovery_l3gd20.c:512:6:L3GD20_ExtiConfig	32	static

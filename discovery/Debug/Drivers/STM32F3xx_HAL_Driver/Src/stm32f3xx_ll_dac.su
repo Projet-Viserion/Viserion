@@ -1,0 +1,3 @@
+stm32f3xx_ll_dac.c:210:13:LL_DAC_DeInit	0	static
+stm32f3xx_ll_dac.c:253:13:LL_DAC_Init	8	static
+stm32f3xx_ll_dac.c:321:6:LL_DAC_StructInit	0	static

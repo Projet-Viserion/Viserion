@@ -1,0 +1,4 @@
+stm32f3xx_AHRS_it.c:51:6:SVC_Handler	0	static
+stm32f3xx_AHRS_it.c:64:6:PendSV_Handler	0	static
+stm32f3xx_AHRS_it.c:88:6:EXTI2_TSC_IRQHandler	8	static
+stm32f3xx_AHRS_it.c:98:6:EXTI1_IRQHandler	8	static
