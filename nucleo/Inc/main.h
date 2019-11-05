@@ -46,6 +46,8 @@
 /* USER CODE BEGIN Includes */
 #include "wheels.h"
 #include "steering.h"
+#include "power.h"
+
 /* USER CODE END Includes */
 
 /* Private define ------------------------------------------------------------*/

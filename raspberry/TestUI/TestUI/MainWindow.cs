@@ -175,13 +175,13 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnButton3Clicked(object sender, EventArgs e)
     {
-        byte[] bytes = Encoding.ASCII.GetBytes("STE" + "left");
+        byte[] bytes = Encoding.ASCII.GetBytes("STE" + "right");
         nwStream.Write(bytes, 0, bytes.Length);
     }
 
     protected void OnButton5Clicked(object sender, EventArgs e)
     {
-        byte[] bytes = Encoding.ASCII.GetBytes("STE" + "right");
+        byte[] bytes = Encoding.ASCII.GetBytes("STE" + "left");
         nwStream.Write(bytes, 0, bytes.Length);
     }
 

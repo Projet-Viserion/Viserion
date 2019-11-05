@@ -4,6 +4,13 @@
 
 The Nucleo board controls the vehicle's engines and steering, as well as the battery level. The ports used to connect the board are described in the diagram of the [electronic board](../../hardware/electronic/electronic_overview.md)
 
+
+### Power switch
+| Port | Configuration | Remap | Description                     |
+|------|---------------|-------|---------------------------------|
+| PA6  | Output PP     | -     |Control the power                |
+
+
 ### Sensors
 | Port | Configuration | Remap | Description                     |
 |------|---------------|-------|---------------------------------|
@@ -28,6 +35,12 @@ The Nucleo board controls the vehicle's engines and steering, as well as the bat
 | PB0  | AF Output PP  | TIM1 CH2N|  Control right motor (IN2) |
 | PA5  | Analog Input  | ADC1 IN5 | Current right motor        |
 
+### Steering wheel manual buttons
+| Port | Configuration | Remap | Description                  |
+|------|---------------|-------|------------------------------|
+| PB14 | Input Pullup  | —     | Status of the right button | 
+| PB15 | Input Pullup  | —     | Status of the right button | 
+
 ### Steering wheel motor
 | Port | Configuration | Remap | Description                  |
 |------|---------------|-------|------------------------------|
@@ -45,6 +58,15 @@ The Nucleo board controls the vehicle's engines and steering, as well as the bat
 The full description of the port configuration is provided in the file [electronic board](../../../nucleo/voiture-elec.txt).
 
 ## How to manage sensors and actuators
+
+### Bootstrap power
+
+To maintain the power it is necessary to set PA6. If the pin is reset the power of the car is off.
+
+Functions `power_bootstrap` and  `power_shutdown`can be used to control the state of the PA6.
+
+> [!IMPORTANT]
+> When launching the DEBUG or LOAD of the STM32 card, it is necessary to manually press and hold the START button (ST-LINK imposes a reset that cuts off the latch circuit).
 
 ### Voltage measurements
 

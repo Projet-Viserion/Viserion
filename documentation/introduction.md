@@ -8,4 +8,7 @@ Markdown syntax is simple and is used for many projects, such as **GitHub**. Man
 
 ## How this documentation is structured
 
-The documentation is structured in two parts. One describes the hardware components of the car, while the other is dedicated to software aspects.
+The documentation is structured in two parts:
+
+* One describes the hardware components of the car, 
+* while the other is dedicated to software aspects.

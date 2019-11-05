@@ -285,6 +285,7 @@ public partial class MainWindow
 		w14.YOptions = ((global::Gtk.AttachOptions)(4));
 		// Container child table1.Gtk.Table+TableChild
 		this.vbox3 = new global::Gtk.VBox();
+		this.vbox3.Name = "vbox3";
 		this.vbox3.Spacing = 6;
 		// Container child vbox3.Gtk.Box+BoxChild
 		this.hbox5 = new global::Gtk.HBox();

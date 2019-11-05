@@ -153,15 +153,17 @@ class MyReceive(Thread):
         self.bus  = can.interface.Bus(channel='can0', bustype='socketcan_native')
 
         self.speed_cmd = 0
-        self.move = 0
+        self.movement = 0
         self.turn = 0
+        self.enable_steering = 0
         self.enable = 0
 
     def run(self):
         self.speed_cmd = 0
-        self.move = 0
+        self.movement = 0
         self.turn = 0
-        self.enable = 0
+        self.enable_steering = 0
+        self.enable_speed = 0
 
         while True :
             data = conn.recv(1024)
@@ -181,41 +183,45 @@ class MyReceive(Thread):
             elif (header == b'STE'):  # steering
                 if (payload == b'left'):
                     self.turn = 1
-                    self.enable = 1
+                    self.enable_steering = 1
                     print("send cmd turn left")
                 elif (payload == b'right'):
                     self.turn = -1
-                    self.enable = 1
+                    self.enable_steering = 1
                     print("send cmd turn right")
                 elif (payload == b'stop'):
                     self.turn = 0
-                    self.enable = 0
+                    self.enable_steering = 0
                     print("send cmd stop to turn")
-            elif (header == b'MOV'):  # move
+            elif (header == b'MOV'):  # movement
                 if (payload == b'stop'):
-                    self.move = 0
-                    self.enable = 0
-                    print("send cmd move stop")
+                    self.movement = 0
+                    self.enable_speed = 0
+                    print("send cmd movement stop")
                 elif (payload == b'forward'):
-                    print("send cmd move forward")
-                    self.move = 1
-                    self.enable = 1
+                    print("send cmd movement forward")
+                    self.movement = 1
+                    self.enable_speed = 1
                 elif (payload == b'backward'):
-                    print("send cmd move backward")
-                    self.move = -1
-                    self.enable = 1
+                    print("send cmd movement backward")
+                    self.movement = -1
+                    self.enable_speed = 1
 
             print(self.speed_cmd)
-            print(self.move)
-            print(self.turn)
+            print(self.movement)
             print(self.enable)
+            print(self.turn)
+            print(self.enable_steering)
 
-            if self.enable:
-                cmd_mv = (50 + self.move*self.speed_cmd) | 0x80
-                cmd_turn = 50 + self.turn*20 | 0x80
+            if self.enable_speed:
+                cmd_mv = (50 + self.movement*self.speed_cmd) | 0x80
             else:
-                cmd_mv = (50 + self.move*self.speed_cmd) & ~0x80
-                cmd_turn = 50 + self.turn*20 & 0x80
+                cmd_mv = (50 + self.movement*self.speed_cmd) & ~0x80
+
+            if self.enable_steering:
+                cmd_turn = 50 + self.turn*30 | 0x80
+            else:
+                cmd_turn = 50 + self.turn*30 & 0x80
 
             print("mv:",cmd_mv,"turn:",cmd_turn)
 

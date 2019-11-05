@@ -1,5 +1,9 @@
 # Overview of the software architecture
 
+
+> [!IMPORTANT]
+> When launching the DEBUG or LOAD of the STM32 card (Nucleo), it is necessary to manually press and hold the START button (ST-LINK imposes a reset that cuts off the latch circuit).
+
 ## Embedded code
 Each ECU has its own embedded code. Different tools were used to produced code and to compile. 
 

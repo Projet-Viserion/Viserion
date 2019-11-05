@@ -10,3 +10,9 @@
 /Users/pehladik/Desktop/geicar/raspberry/TestUI/TestUI/obj/x86/Debug/TestUI.csproj.CoreCompileInputs.cache
 /Users/pehladik/Desktop/geicar/raspberry/TestUI/TestUI/obj/x86/Debug/TestUI.exe
 /Users/pehladik/Desktop/geicar/raspberry/TestUI/TestUI/obj/x86/Debug/TestUI.pdb
+/Users/pehladik/shared_with_Windows_VL/geicar/raspberry/TestUI/TestUI/bin/Debug/TestUI.exe
+/Users/pehladik/shared_with_Windows_VL/geicar/raspberry/TestUI/TestUI/bin/Debug/TestUI.pdb
+/Users/pehladik/shared_with_Windows_VL/geicar/raspberry/TestUI/TestUI/obj/x86/Debug/TestUI.csprojAssemblyReference.cache
+/Users/pehladik/shared_with_Windows_VL/geicar/raspberry/TestUI/TestUI/obj/x86/Debug/TestUI.csproj.CoreCompileInputs.cache
+/Users/pehladik/shared_with_Windows_VL/geicar/raspberry/TestUI/TestUI/obj/x86/Debug/TestUI.exe
+/Users/pehladik/shared_with_Windows_VL/geicar/raspberry/TestUI/TestUI/obj/x86/Debug/TestUI.pdb
