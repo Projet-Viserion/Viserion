@@ -10,13 +10,15 @@ This repository is intended to provide a basis for students starting a new proje
 * SELLAM Nabil, ZHANG Guang Xue, BONIN Antoine, CHADUC Clement, DUCONGE Kevin, REBOUCAS MAIA  Lucas.
 * BENAZECH Alexandre, BRIARD Sébastien, CASSAGNE Ludovic, DOTHEE Solène, SARTHOU Guillaume.
 * COMBATTELLI Julien, EGRETEAU Corentin, DE BRITO Guillaume, DUPERON Liliane, CHATAIGNON Mickael.
-* DEBAILLEUX Margaux, COMBES Jean, FARO Mathias, FAYARD Baptiste, GANDOU Thomas.
+* DEBAILLEUX Margaux, COMBES Jean, FARO Mathias, FAYARD Baptiste, 
+GANDOU Thomas.
 * GISSOT Lucas, LUBAT Eric, LARSSON Léo, LOUPIAS Delia, TAMIMO Volamiary.
 * MEDRANO Johan, MIRAULT Clara, MONNERET Vivien, PORTES Quentin, SHIN Sohun, IGLESIS Enzo.
 * ANTUNES COELHO Carolina, CHATELAIN Vincent, JOURDE Tanguy, PUECHMAILLE David, SIRGABSOU Yandika
 * KIM EunHwan, STENKULA Ninni, VIGNOLLES Amaury, TAHIRI Abdelilah, OJEDA Leonardo, PONCY Jonathan
 * AMARIR Azeddine, BOUHASSOUM Assya, DELGA Baptiste, LASGUIGNES Thibaud, LEMAÎTRE Aurélien, PARIS Christine
 * BELLET Valentine, PUECH Camille, MUREDDU Antoine, NUSSLI Gabriel, SADIK Anass
+* CAO Biwei, NIRINA Carrel, GAMERO Hugo, PINHEIRO DE VASCONCELOS Fernando, GRUET Antoine
 
 The platform is (or was) developped and maintained by :
 
